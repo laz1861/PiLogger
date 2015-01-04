@@ -1,0 +1,7 @@
+This is a python script that will connect to an sqlite3 database.
+It is intended to run on a RPi.  The logging will happen using the adafruit library.
+It will push data to the database. 
+
+The files in /www/ are intended to to run with javascript and flot to display the logged data.
+
+
