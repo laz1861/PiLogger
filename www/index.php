@@ -97,7 +97,7 @@ $(function () {
 	shadowSize: 0,
 	selection: { mode: "xy" },
 	zoom: { interactive: true },
-	xaxis: { mode: "time" },
+	xaxis: { mode: "time", timezone: "browser" },
 	yaxis: {tickDecimals:2, min: 25, max: 80  },
 	y2axis: {tickDecimals:2, min: 3, max: 10 },
 	crosshair: {mode: "x" },

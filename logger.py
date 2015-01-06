@@ -49,10 +49,10 @@ if humidity is not None and temperature is not None:
   tdate=time.strftime("%y-%m-%d")
   ttime=time.strftime("%H:%M:%S")
   c.execute("INSERT INTO temps VALUES(?,?,?,?,?)",(tdate,ttime,temperature,humidity,absh))
-  #print "Data recorded on " + str(tdate) + " at " + str(ttime)
+  print "Data recorded on " + str(tdate) + " at " + str(ttime)
   conn.commit()
 else:
-  #print "Data read failed"
+  print "Data read failed"
     
 conn.close()
 
